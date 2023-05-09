@@ -4,6 +4,9 @@
     height: 11px;
     background-color: #2b2a2b;
 }
+.titrefont{
+    font-family: "Courgette";
+}
 
 main {
     background-image: url(../images/main_bg.jpg);
@@ -53,8 +56,17 @@ main {
 
 
 }
-
 // -----------------end section-1--------------------
+// ----------------- section-2--------------------
+.section-2{
+    background-image: url(../images/team_background.jpg);
+    
+
+
+}
+
+
+// -----------------end section-2--------------------
 @media (max-width:768px) {
     .menu {
         .econe-menu {

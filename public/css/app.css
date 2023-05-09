@@ -13594,6 +13594,10 @@ header .titre .botone .btnR {
   background-color: #2b2a2b;
 }
 
+.titrefont {
+  font-family: "Courgette";
+}
+
 main {
   background-image: url(../images/main_bg.jpg);
 }
@@ -13620,6 +13624,10 @@ main {
 }
 .section-1 .menu .econe-menu h5, .section-1 .menu .econe-menu .h5 {
   font-size: 2vw;
+}
+
+.section-2 {
+  background-image: url(../images/team_background.jpg);
 }
 
 @media (max-width: 768px) {

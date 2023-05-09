@@ -18,6 +18,7 @@ $custom-colors : (
     "coultitre": #b1293a,
 );
 
+
 //* Fusionner les informations avec celles de bootstrap :
 $theme-colors : map-merge($theme-colors , $custom-colors);
 
