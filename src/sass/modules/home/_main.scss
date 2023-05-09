@@ -59,14 +59,28 @@ main {
 // -----------------end section-1--------------------
 // ----------------- section-2--------------------
 .section-2{
-    background-image: url(../images/team_background.jpg);
-    
-
-
+    background-image: url(../images/team_background.jpg);   
 }
+// ----------------- section-3--------------------
+.forme{
+    background-image: url(../images/team_background.jpg); 
+    form{
+        .dropdown{
+            width: 23vw;
+
+        }
+    } 
+}
+//------------ blog-------------
 
 
-// -----------------end section-2--------------------
+//------------ end blog-------------
+// -----------------end section3---------------------
+// ----------------- section4---------------------
+.section-4{
+    background-image: url(../images/testimonials_background.jpg);   
+}
+// -----------------end section3---------------------
 @media (max-width:768px) {
     .menu {
         .econe-menu {
@@ -79,8 +93,7 @@ main {
 
         }
 
-    }
-  
+    }  
 }
 
 @media (max-width:426px) {
@@ -105,5 +118,22 @@ main {
 
 
     }
+// ---------------- section-3 ------------------
+.forme{
+    
+    form{
+        input , .dropdown{
+            width: 100%  !important;
+        }
+        
+    }
+
+}
+.blog{
+    img{
+        width: 350px;
+    }
+}
+// ---------------- section-3 ------------------
 
 }
