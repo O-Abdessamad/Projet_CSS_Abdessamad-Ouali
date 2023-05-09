@@ -1,0 +1,97 @@
+.border-end {
+    background-image: url(../images/bottom_decoration_img.png);
+    background-repeat: repeat-x;
+    height: 11px;
+    background-color: #2b2a2b;
+}
+
+main {
+    background-image: url(../images/main_bg.jpg);
+
+}
+
+// -----------------section-1--------------------
+.section-1 {
+
+    .feuille {
+        background-color: white;
+
+        .feuille-titre {
+            font-family: "Courgette";
+
+            samp {
+                font-family: "Courgette";
+                color: #b1293a;
+            }
+
+        }
+
+        .feuille-paragraphe {
+            width: 60%;
+        }
+
+    }
+
+    .menu {
+        .econe-menu {
+            font-family: "Courgette";
+            border-right: #b1293a solid 2px;
+            i{
+                font-size: 3vw;
+            }
+            h5{
+                font-size: 2vw;
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+}
+
+// -----------------end section-1--------------------
+@media (max-width:768px) {
+    .menu {
+        .econe-menu {
+            i{
+                font-size: 21vw;
+            }
+            h5{
+                font-size: 32vw;
+            }
+
+        }
+
+    }
+  
+}
+
+@media (max-width:426px) {
+    .feuille-paragraphe {
+        width: 90% !important;
+    }
+    .menu {
+
+        .menu {
+            .econe-menu {
+                i{
+                    font-size: 21vw;
+                }
+                h5{
+                    font-size: 32vw;
+                    background-color: yellow;
+                }
+    
+            }
+    
+        }
+
+
+    }
+
+}

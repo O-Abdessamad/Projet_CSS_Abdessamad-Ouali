@@ -15,7 +15,7 @@ $custom-colors : (
     "ikram" : $orange ,
     "colnav":$navebar,
     "con" :#f8f9fa,
-    "colbtn": #b1293a,
+    "coultitre": #b1293a,
 );
 
 //* Fusionner les informations avec celles de bootstrap :
@@ -34,6 +34,10 @@ $custom-spacers : (
     6 : $spacer*6 ,
     7 : $spacer*7 ,
     8 : $spacer*20 ,
+    11 : $spacer*0.25 ,
+    22 : $spacer*0.5 ,
+    33 : $spacer*0.7 ,
+   
 );
 
 //& Fusionner et écrire nos valeurs d'espacement :
